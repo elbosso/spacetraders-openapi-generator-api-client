@@ -265,4 +265,12 @@
         <maven-plugin-version>1.0.0</maven-plugin-version>
         <junit-version>4.13</junit-version>
     </properties>
+      <distributionManagement>
+          <repository>
+              <id>gitlab</id>
+              <name>EL BOSSOs (https://elbosso.github.io/index.html) Maven Repository</name>
+              <url>https://elbosso.gitlab.io/mvn/repository/</url>
+          </repository>
+  </distributionManagement>
+
 </project>
